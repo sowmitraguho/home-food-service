@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router';
 import "./Navbar.css"
+import { SiFoodpanda } from "react-icons/si";
+import { BiSolidBowlHot } from "react-icons/bi";
+
 
 const Navbar = () => {
     return (
         <nav>
             <div className="nav-logo">
-                <h2>Home Food</h2>
+                <SiFoodpanda className='mr-2' />
+                <h2>Khadok</h2>
             </div>
             <div className="nav-menu">
                 <ul className="nav-links">
@@ -28,8 +32,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="login">
-                <button className='btn'>Sign In</button>
-                <button className='btn'>Register</button>
+                <button className='btn'><BiSolidBowlHot className='mr-2' />Login</button>
+                {/* <button className='btn'>Register</button> */}
             </div>
 
         </nav>
