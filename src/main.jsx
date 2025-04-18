@@ -11,7 +11,9 @@ const router = createBrowserRouter([
     path: "/",
     Component: App,
     children: [
-      {index: true, Component: Home},
+      {index: true, 
+        loader: () => fetch('corevalues.json'),
+        Component: Home},
       { path: "about", Component: About },
     ],
   },

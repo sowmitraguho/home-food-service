@@ -2,7 +2,11 @@ import React from 'react';
 import './Home.css'
 import { BiSolidBowlHot } from 'react-icons/bi';
 import banner from './../../assets/food banner.jpg'
+import OurCoreValues from '../OurCoreValues/OurCoreValues';
+import { useLoaderData } from 'react-router';
 const Home = () => {
+    const data = useLoaderData();
+    console.log(data.core_values);
     return (
         <>
             <div className='banner-container'>
@@ -35,6 +39,7 @@ const Home = () => {
             <div className="banner-image">
                 <img src={banner} />
             </div>
+            <OurCoreValues core_values = {data.core_values} />
         </>
     );
 };

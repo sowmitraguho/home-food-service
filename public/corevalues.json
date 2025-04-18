@@ -1,0 +1,33 @@
+{
+    "core_values": [
+      {
+        "title": "Freshness First",
+        "description": "We prioritize fresh, locally-sourced ingredients to ensure every dish is wholesome and packed with natural flavors."
+      },
+      {
+        "title": "Homestyle Cooking",
+        "description": "Our meals are prepared just like they are at home — with love, tradition, and care, ensuring comfort in every bite."
+      },
+      {
+        "title": "Hygiene & Safety",
+        "description": "We maintain the highest standards of cleanliness in our kitchen, ensuring your food is prepared in a safe and sanitary environment."
+      },
+      {
+        "title": "Customer Satisfaction",
+        "description": "Your happiness is our priority. We listen to your feedback and go the extra mile to make sure every meal brings a smile."
+      },
+      {
+        "title": "Authenticity",
+        "description": "Each recipe is crafted to retain its original flavor and cultural roots, bringing you the true taste of home."
+      },
+      {
+        "title": "Affordability",
+        "description": "Delicious, home-cooked meals should be accessible to everyone. We keep our prices fair without compromising quality."
+      },
+      {
+        "title": "Sustainability",
+        "description": "We care for the planet by minimizing food waste, using eco-friendly packaging, and supporting sustainable practices."
+      }
+    ]
+  }
+  
