@@ -8,9 +8,9 @@ import { BiSolidBowlHot } from "react-icons/bi";
 const Navbar = () => {
     return (
         <nav>
-            <div className="nav-logo">
-                <SiFoodpanda className='mr-2' />
-                <h2>Khadok</h2>
+            <div className="nav-logo flex items-center  gap-1">
+                <SiFoodpanda className='' />
+                <h2 className='uppercase text-2xl font-bold'>Khadok</h2>
             </div>
             <div className="nav-menu">
                 <ul className="nav-links">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="login">
-                <button className='btn'><BiSolidBowlHot className='mr-2' />Login</button>
+                <button className='btn flex items-center'><BiSolidBowlHot className='mr-2' />Login</button>
                 {/* <button className='btn'>Register</button> */}
             </div>
 
