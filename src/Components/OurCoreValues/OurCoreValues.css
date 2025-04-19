@@ -1,6 +1,12 @@
-.uppercase{
-    text-transform: uppercase;
-}
-.p-16{
+.our-core-value{
     padding: 16px;
+    margin-top: -200px;
+}
+
+.core-value-title{
+    padding-top: 260px;
+    padding-bottom: 20px;
+}
+.core-values{
+    padding-bottom: 60px;
 }
