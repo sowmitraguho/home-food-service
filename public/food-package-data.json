@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Family Feast",
+      "foods": ["Roast Chicken", "Grilled Vegetables", "Mashed Potatoes", "Garlic Bread"],
+      "image": "https://example.com/images/family-feast.jpg",
+      "price": 39.99
+    },
+    {
+      "name": "Italian Delight",
+      "foods": ["Spaghetti Bolognese", "Caesar Salad", "Garlic Knots", "Tiramisu"],
+      "image": "https://example.com/images/italian-delight.jpg",
+      "price": 29.99
+    },
+    {
+      "name": "Seafood Special",
+      "foods": ["Grilled Salmon", "Shrimp Cocktail", "Lemon Rice", "Steamed Broccoli"],
+      "image": "https://example.com/images/seafood-special.jpg",
+      "price": 49.99
+    },
+    {
+      "name": "Vegan Paradise",
+      "foods": ["Vegan Burger", "Sweet Potato Fries", "Quinoa Salad", "Fruit Smoothie"],
+      "image": "https://example.com/images/vegan-paradise.jpg",
+      "price": 24.99
+    },
+    {
+      "name": "Mexican Fiesta",
+      "foods": ["Tacos", "Nachos", "Guacamole", "Churros"],
+      "image": "https://example.com/images/mexican-fiesta.jpg",
+      "price": 27.99
+    },
+    {
+      "name": "Burger Combo",
+      "foods": ["Cheeseburger", "French Fries", "Coleslaw", "Soft Drink"],
+      "image": "https://example.com/images/burger-combo.jpg",
+      "price": 19.99
+    },
+    {
+      "name": "Asian Fusion",
+      "foods": ["Sushi Platter", "Spring Rolls", "Fried Rice", "Miso Soup"],
+      "image": "https://example.com/images/asian-fusion.jpg",
+      "price": 34.99
+    },
+    {
+      "name": "BBQ Party Pack",
+      "foods": ["BBQ Ribs", "Corn on the Cob", "Potato Salad", "Apple Pie"],
+      "image": "https://example.com/images/bbq-party-pack.jpg",
+      "price": 44.99
+    },
+    {
+      "name": "Breakfast Bonanza",
+      "foods": ["Pancakes", "Scrambled Eggs", "Bacon", "Orange Juice"],
+      "image": "https://example.com/images/breakfast-bonanza.jpg",
+      "price": 18.99
+    },
+    {
+      "name": "Indian Spices",
+      "foods": ["Butter Chicken", "Naan Bread", "Biryani Rice", "Gulab Jamun"],
+      "image": "https://example.com/images/indian-spices.jpg",
+      "price": 32.99
+    },
+    {
+      "name": "Healthy Choice",
+      "foods": ["Grilled Chicken Salad", "Greek Yogurt", "Mixed Nuts", "Green Smoothie"],
+      "image": "https://example.com/images/healthy-choice.jpg",
+      "price": 22.99
+    },
+    {
+      "name": "Kids Meal Box",
+      "foods": ["Mini Burger", "Fries", "Apple Slices", "Chocolate Milk"],
+      "image": "https://example.com/images/kids-meal-box.jpg",
+      "price": 12.99
+    },
+    {
+      "name": "Sushi Lover's Set",
+      "foods": ["California Roll", "Tuna Nigiri", "Miso Soup", "Edamame"],
+      "image": "https://example.com/images/sushi-lovers-set.jpg",
+      "price": 36.99
+    },
+    {
+      "name": "Middle Eastern Magic",
+      "foods": ["Shawarma", "Hummus & Pita", "Falafel", "Baklava"],
+      "image": "https://example.com/images/middle-eastern-magic.jpg",
+      "price": 30.99
+    },
+    {
+      "name": "Dessert Dream",
+      "foods": ["Chocolate Cake", "Cheesecake", "Fruit Tart", "Ice Cream Sundae"],
+      "image": "https://example.com/images/dessert-dream.jpg",
+      "price": 25.99
+    }
+  ]
+  

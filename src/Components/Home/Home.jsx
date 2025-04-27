@@ -4,9 +4,10 @@ import { BiSolidBowlHot } from 'react-icons/bi';
 import banner from './../../assets/food banner.jpg'
 import OurCoreValues from '../OurCoreValues/OurCoreValues';
 import { useLoaderData } from 'react-router';
+import Offerings from '../Offerings/Offerings';
 const Home = () => {
     const data = useLoaderData();
-    console.log(data.core_values);
+    
     return (
         <>
             <div className='banner-container'>
@@ -40,6 +41,7 @@ const Home = () => {
                 <img src={banner} />
             </div>
             <OurCoreValues core_values = {data.core_values} />
+            <Offerings/>
         </>
     );
 };

@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className="login">
                 <button className='btn flex items-center'><BiSolidBowlHot className='mr-2' />Login</button>
-                {/* <button className='btn'>Register</button> */}
+               
             </div>
 
         </nav>

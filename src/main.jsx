@@ -11,14 +11,16 @@ const router = createBrowserRouter([
     path: "/",
     Component: App,
     children: [
-      {index: true, 
+      {
+        index: true,
         loader: () => fetch('corevalues.json'),
-        Component: Home},
+        Component: Home
+      },
       { path: "about", Component: About },
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router}/>
+  <RouterProvider router={router} />
 )
