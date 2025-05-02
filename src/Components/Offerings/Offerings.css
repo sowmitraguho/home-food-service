@@ -1,5 +1,10 @@
-.padding-base{
-    padding: 16px;
+.offering-section{
+    padding: 1.5rem;
+}
+.offering-top-section{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
 }
 .btn-offering{
     padding: 0.5rem;

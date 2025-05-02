@@ -1,5 +1,7 @@
 .banner-container {
-    padding: 16px;
+    padding-top: 5rem;
+    padding-left: 16px;
+    padding-right: 16px;
     display: flex;
     justify-content: space-around;
 }

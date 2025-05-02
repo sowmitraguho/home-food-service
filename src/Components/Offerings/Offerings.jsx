@@ -10,19 +10,20 @@ const Offerings = () => {
         .then(res=>res.json())
         .then(data=>setData(data))
 
-        console.log(data);
+        //console.log(data);
     }, [setData, data]);
-    
+    //console.log(data);
     return (
-        <div>
-            <div className="top-section padding-base flex justify-between">
-                <h2 className="text-3xl font-bold uppercase text-black">Our Offerings</h2>
+        <div className='offering-section'>
+            <div className="offering-top-section">
+                <h2 className="">Our Offerings</h2>
+                <p></p>
                 <button type='button' className="btn-offering">View More</button>
             </div>
             {
-                data.map((foodItem, index) => {
-                    <FoodItemCard key={index} foodItem={foodItem} />
-                })
+                data.map((foodItem, index) => 
+                    <><FoodItemCard key={index} foodItem={foodItem} /></>
+                )
             }
         </div>
     );

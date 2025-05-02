@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import "./Navbar.css"
 import { SiFoodpanda } from "react-icons/si";
 import { BiSolidBowlHot } from "react-icons/bi";
@@ -27,12 +27,14 @@ const Navbar = () => {
                         <Link to="/about">About Us</Link>
                     </li>
                     <li className="nav-link">
-                        <Link>Contact Us</Link>
+                        <Link to='/signup'>Contact Us</Link>
                     </li>
                 </ul>
             </div>
             <div className="login">
-                <button className='btn flex items-center'><BiSolidBowlHot className='mr-2' />Login</button>
+                <button className='btn flex items-center'><BiSolidBowlHot className='mr-2' />
+                <NavLink className="navbar-link" to="/login">Login</NavLink>
+                </button>
                
             </div>
 
