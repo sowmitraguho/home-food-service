@@ -6,6 +6,8 @@ import Home from './Components/Home/Home.jsx'
 import About from './Components/About/About.jsx'
 import SignIn from './Components/SignIn/SignIn.jsx'
 import SignUp from './Components/SignUp/SignUp.jsx'
+//import { Component } from 'react'
+import ContactUs from './Components/ContactUs/ContactUs.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,6 +23,7 @@ const router = createBrowserRouter([
       { path: "about", Component: About },
       {path: "signin", Component: SignIn},
       {path: "signup", Component: SignUp},
+      {path: 'contact', Component: ContactUs}
 
     ],
   },

@@ -20,11 +20,13 @@ const Offerings = () => {
                 <p></p>
                 <button type='button' className="btn-offering">View More</button>
             </div>
+            <div className="food-item-boxes">
             {
                 data.map((foodItem, index) => 
                     <><FoodItemCard key={index} foodItem={foodItem} /></>
                 )
             }
+            </div>
         </div>
     );
 };

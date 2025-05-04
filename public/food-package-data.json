@@ -2,37 +2,37 @@
     {
       "name": "Family Feast",
       "foods": ["Roast Chicken", "Grilled Vegetables", "Mashed Potatoes", "Garlic Bread"],
-      "image": "https://example.com/images/family-feast.jpg",
+      "image": "https://www.thefrugalfarmer.net/wp-content/uploads/2017/11/Thanksgiving_Family_Feast-1024x614.jpg",
       "price": 39.99
     },
     {
       "name": "Italian Delight",
       "foods": ["Spaghetti Bolognese", "Caesar Salad", "Garlic Knots", "Tiramisu"],
-      "image": "https://example.com/images/italian-delight.jpg",
+      "image": "https://slicelife.imgix.net/9998/photos/original/125076390_3778461295498759_3301290945945546231_o.jpg?auto=compress&auto=format",
       "price": 29.99
     },
     {
       "name": "Seafood Special",
       "foods": ["Grilled Salmon", "Shrimp Cocktail", "Lemon Rice", "Steamed Broccoli"],
-      "image": "https://example.com/images/seafood-special.jpg",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Roast-seafood-dish-b585388.jpg",
       "price": 49.99
     },
     {
       "name": "Vegan Paradise",
       "foods": ["Vegan Burger", "Sweet Potato Fries", "Quinoa Salad", "Fruit Smoothie"],
-      "image": "https://example.com/images/vegan-paradise.jpg",
+      "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5d47c341d460ec5d115072de103dc08d/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
       "price": 24.99
     },
     {
       "name": "Mexican Fiesta",
       "foods": ["Tacos", "Nachos", "Guacamole", "Churros"],
-      "image": "https://example.com/images/mexican-fiesta.jpg",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/2/2018/07/Lamb-Tacos-9bf986f.jpg?quality=90&resize=556,505",
       "price": 27.99
     },
     {
       "name": "Burger Combo",
       "foods": ["Cheeseburger", "French Fries", "Coleslaw", "Soft Drink"],
-      "image": "https://example.com/images/burger-combo.jpg",
+      "image": "https://thumbs.dreamstime.com/b/delicious-fast-food-combo-burger-fries-drink-bright-background-ai-generation-348226194.jpg",
       "price": 19.99
     },
     {

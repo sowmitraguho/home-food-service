@@ -1,4 +1,5 @@
 .offering-section{
+    width: 100%;
     padding: 1.5rem;
 }
 .offering-top-section{
@@ -16,4 +17,11 @@
     color: rgb(34, 34, 34);
     background-color: rgb(255, 196, 80);
 
+}
+.food-item-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
 }

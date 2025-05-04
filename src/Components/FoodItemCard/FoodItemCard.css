@@ -1,0 +1,48 @@
+.card{
+    width: 100%;
+    height: 500px;
+  
+    text-align: center;
+}
+.food-item-card-title{
+    background-color: #ff5323;
+    color: #fff;
+    padding: 0.21rem;
+}
+.card-image{
+    width: 100%;
+    height: 60%;
+    
+}
+.food-items-in-package{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.food-items{
+    color: #ff5323;
+}
+.shopping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.shopping-btn{
+    padding: 0.5rem;
+    width: 80%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 196, 80);
+    color: rgb(34, 34, 34);
+    background-color: rgb(255, 196, 80);
+    border-radius: 2px;
+}
+.shopping-cart{
+    font-size: 2rem;
+    border: 1px solid #50591A;
+    border-radius: 2px;
+    padding: 0.4rem;
+    color: #50591A;
+}

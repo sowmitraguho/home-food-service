@@ -27,13 +27,13 @@ const Navbar = () => {
                         <Link to="/about">About Us</Link>
                     </li>
                     <li className="nav-link">
-                        <Link to='/signup'>Contact Us</Link>
+                        <Link to='/contact'>Contact Us</Link>
                     </li>
                 </ul>
             </div>
             <div className="login">
                 <button className='btn flex items-center'><BiSolidBowlHot className='mr-2' />
-                <NavLink className="navbar-link" to="/login">Login</NavLink>
+                <NavLink className="navbar-link" to="/signup">Login</NavLink>
                 </button>
                
             </div>
