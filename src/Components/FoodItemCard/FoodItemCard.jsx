@@ -9,9 +9,11 @@ const FoodItemCard = ({foodItem}) => {
 
     return (
         <div className='card'>
-            <h3 className='food-item-card-title'>{foodItem.name}</h3>
+            <div>
+                <h3 className='food-item-card-title'>{foodItem.name}</h3>
             <img className='card-image' src={foodItem.image} alt="food-image" />
             <p className="food-items-in-package"> <span className="food-items">Food Items in this package:</span> {foodItem.foods.join(', ')}</p>
+            </div>
             <div className="shopping">
                 <button className='shopping-btn' type="button">Buy Now</button>
                 <FaCartShopping className='shopping-cart' />
